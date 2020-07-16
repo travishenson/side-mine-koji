@@ -1,0 +1,28 @@
+{
+  "player": {
+    "playerIdle": "https://images.koji-cdn.com/d8f7153b-775a-441b-a1cc-a3a364e41c17/lrbzf-playerIdle.png",
+    "playerThrow": "https://images.koji-cdn.com/d8f7153b-775a-441b-a1cc-a3a364e41c17/duzcp-playerThrow.png"
+  },
+  "@@editor": [
+    {
+      "key": "player",
+      "name": "Player",
+      "icon": "💪🏻",
+      "source": "player.json",
+      "fields": [
+        {
+          "key": "playerIdle",
+          "name": "Player (Idle)",
+          "description": "Player sprite when idle",
+          "type": "image"
+        },
+        {
+          "key": "playerThrow",
+          "name": "Player (Throw)",
+          "description": "Player sprite when throwing projectile",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

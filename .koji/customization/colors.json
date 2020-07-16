@@ -1,0 +1,57 @@
+{
+  "colors": {
+    "background": "#4488AA",
+    "gameTitle": "#000000",
+    "headingText": "#ffffff",
+    "bodyText": "#ffffff",
+    "buttonText": "#ffffff",
+    "submitScorePopup": "#a1762f",
+    "submitScoreField": "#4d3715"
+  },
+  "@@editor": [
+    {
+      "key": "colors",
+      "name": "Colors",
+      "icon": "🎨",
+      "source": "colors.json",
+      "fields": [
+        {
+          "key": "background",
+          "name": "Background color",
+          "description": "Game defaults to this color if no background image exists",
+          "type": "color"
+        },
+        {
+          "key": "gameTitle",
+          "name": "Game Title",
+          "type": "color"
+        },
+        {
+          "key": "headingText",
+          "name": "Heading text color",
+          "type": "color"
+        },
+        {
+          "key": "bodyText",
+          "name": "Body text color",
+          "type": "color"
+        },
+        {
+          "key": "buttonText",
+          "name": "Button text color",
+          "type": "color"
+        },
+        {
+          "key": "submitScorePopup",
+          "name": "Submit Score Background color",
+          "type": "color"
+        },
+        {
+          "key": "submitScoreField",
+          "name": "Submit Score Field color",
+          "type": "color"
+        }
+      ]
+    }
+  ]
+}

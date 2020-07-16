@@ -1,0 +1,13 @@
+{
+  "quickstart": {
+    "items": [
+        "strings.gameTitle",
+        "images.background",
+        "player.playerIdle",
+        "player.playerThrow",
+        "images.projectile",
+        "images.ground",
+        "tiles.tiles"
+    ]
+  }
+}
