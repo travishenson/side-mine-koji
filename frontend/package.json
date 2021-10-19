@@ -2,7 +2,6 @@
   "name": "phaser-parcel",
   "version": "1.0.0",
   "description": "A Phaser 3 game template using Parcel bundler",
-  "main": "dist/index.html",
   "scripts": {
     "build": "rm -f dist/* && parcel build index.html",
     "postbuild": "koji-vcc pwa",
@@ -20,6 +19,7 @@
     "@withkoji/vcc": "^1.1.16",
     "config": "^3.3.1",
     "matter": "^0.2.0",
+    "parcel": "1.12.3",
     "phaser": "^3.20.1",
     "phaser3-rex-plugins": "^1.1.14",
     "services": "0.0.3"
@@ -33,6 +33,6 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.3"
   }
 }
