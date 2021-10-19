@@ -1,4 +1,4 @@
-# side-mine
+# Side Mine (skinned as Pirate's Plunder here)
 Side Mine is a "match three" inspired game built with Phaser 3, a JavaScript game dev framework
 
 Note: Since completion of this project, there have been some issues with the live integration of the game with the Koji platform. The game still works, but the backend (incl. leaderboards) and deployment are no longer working.
